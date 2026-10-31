@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+.calculator {
+    background-color: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h2 {
+    color: darkblue;
+}
+
+#display {
+    width: 90%;
+    height: 40px;
+    font-size: 22px;
+    text-align: right;
+}
+
+button {
+    width: 55px;
+    height: 45px;
+    font-size: 18px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: skyblue;
+}
